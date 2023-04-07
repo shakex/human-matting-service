@@ -1,0 +1,12 @@
+{
+    "host": "localhost",
+    "port": 8001,
+    "reload": true,
+    "debug": true,
+    "workers": 1,
+    "log_dir": "../../logs/",
+    "model_path": "../../models/modnet-mobilenetv2.pdparams",
+    "model_config": "./Matting/configs/quick_start/modnet-mobilenetv2.yml",
+    "trimap_path": "",
+    "fg_estimate": true
+}
